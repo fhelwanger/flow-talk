@@ -1,2 +1,2 @@
 # flow-talk
-Apresentação sobre flow (flowtype.org)
+Apresentação sobre flow (www.flowtype.org)
