@@ -82,6 +82,16 @@ export default class Presentation extends React.Component {
               textSize="0.8em"
             />
           </Slide>
+          <Slide notes="Comentar dinâmica vs tipada">
+            <Heading>Por que usar?</Heading>
+            <List>
+              <Appear><ListItem>JavaScript é uma linguagem dinâmica</ListItem></Appear>
+              <Appear><ListItem>Capturar erros mais cedo</ListItem></Appear>
+              <Appear><ListItem>Ajuda na leitura do código</ListItem></Appear>
+              <Appear><ListItem>Refatoração com mais segurança</ListItem></Appear>
+              <Appear><ListItem>Suporte para IDE</ListItem></Appear>
+            </List>
+          </Slide>
         </Deck>
       </Spectacle>
     );
