@@ -1,0 +1,14 @@
+// @flow
+
+type Pessoa = {
+  nome: string,
+  idade: number
+};
+
+function imprimir(p: Pessoa) {
+  console.log('Nome:', p.nome);
+  console.log('Idade:', p.idade);
+}
+
+// Property 'idade' not found
+imprimir({ nome: 'Fernando' });
