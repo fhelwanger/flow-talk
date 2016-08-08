@@ -39,7 +39,7 @@ export default class Presentation extends React.Component {
   render() {
     return (
       <Spectacle theme={theme}>
-        <Deck transition={["slide"]} transitionDuration={300}>
+        <Deck progress="bar" transition={["slide"]} transitionDuration={300}>
           <Slide bgColor="#363d42">
             <Heading>
               <Image src={images.logo} height={300} />
