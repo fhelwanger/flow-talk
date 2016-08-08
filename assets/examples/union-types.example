@@ -1,0 +1,14 @@
+type Action = { type: 'LOGIN', usuario: string, senha: string }
+            | { type: 'LOGOUT' };
+
+function reducer(state, action: Action) {
+  switch (action.type) {
+    case 'LOGIN':
+      console.log(action.usuario);
+      return state;
+    case 'LOGOUT':
+      // Property 'usuario' not found
+      console.log(action.usuario);
+      return state;
+  }
+}
