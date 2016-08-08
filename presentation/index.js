@@ -1,9 +1,15 @@
 import React from "react";
 
 import {
+  Appear,
+  CodePane,
   Deck,
   Heading,
   Image,
+  Link,
+  List,
+  ListItem,
+  S,
   Slide,
   Spectacle,
   Text
@@ -14,6 +20,7 @@ import createTheme from "spectacle/lib/themes/default";
 
 require("normalize.css");
 require("spectacle/lib/themes/default/index.css");
+require("../assets/prism-vs.css");
 
 const images = {
   logo: require("../assets/flow-logo.png")
@@ -23,9 +30,9 @@ preloader(images);
 
 const theme = createTheme({
   primary: "#f4f4f4",
-  secondary: "#333",
-  tertiary: "#333",
-  quartenary: "yellow"
+  secondary: "#363d42",
+  tertiary: "#363d42",
+  quartenary: "#363d42"
 });
 
 export default class Presentation extends React.Component {
@@ -40,9 +47,6 @@ export default class Presentation extends React.Component {
             <Text caps textColor="white">
               Um verificador de tipos para JavaScript
             </Text>
-          </Slide>
-          <Slide>
-            <Text>...</Text>
           </Slide>
         </Deck>
       </Spectacle>
