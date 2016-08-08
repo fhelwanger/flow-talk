@@ -1,8 +1,0 @@
-// @flow
-
-function multiplicar(a, b) {
-  return a * b;
-}
-
-// This type is incompatible with number
-console.log(multiplicar(1, '2'));
