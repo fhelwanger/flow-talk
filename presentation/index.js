@@ -90,6 +90,14 @@ export default class Presentation extends React.Component {
               textSize="0.8em"
             />
           </Slide>
+          <Slide>
+            <Heading margin="0px 0px 40px 0px">Classes</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/classes.example")}
+              lang="js"
+              textSize="0.8em"
+            />
+          </Slide>
           <Slide notes="Comentar dinâmica vs tipada">
             <Heading>Por que usar?</Heading>
             <List>
