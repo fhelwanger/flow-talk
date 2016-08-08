@@ -92,6 +92,14 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Suporte para IDE</ListItem></Appear>
             </List>
           </Slide>
+          <Slide>
+            <Heading>Ferramentas</Heading>
+            <List>
+              <Appear><ListItem><Link href="http://babeljs.io/docs/plugins/transform-flow-strip-types/">babel-transform-flow-strip-types</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://github.com/gajus/eslint-plugin-flowtype">eslint-plugin-flowtype</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://github.com/rtorr/vscode-flow">vscode-flow</Link></ListItem></Appear>
+            </List>
+          </Slide>
         </Deck>
       </Spectacle>
     );
