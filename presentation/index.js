@@ -66,6 +66,22 @@ export default class Presentation extends React.Component {
               textSize="1em"
             />
           </Slide>
+          <Slide>
+            <Heading margin="0px 0px 40px 0px">Inferência</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/inference.example")}
+              lang="js"
+              textSize="1em"
+            />
+          </Slide>
+          <Slide>
+            <Heading margin="0px 0px 40px 0px">Maybe types</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/maybe.example")}
+              lang="js"
+              textSize="0.8em"
+            />
+          </Slide>
         </Deck>
       </Spectacle>
     );
