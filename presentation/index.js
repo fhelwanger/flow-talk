@@ -58,6 +58,14 @@ export default class Presentation extends React.Component {
               <Appear><ListItem>Mantido pelo Facebook</ListItem></Appear>
             </List>
           </Slide>
+          <Slide>
+            <Heading margin="0px 0px 40px 0px">Hello Flow!</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/hello-flow.example")}
+              lang="js"
+              textSize="1em"
+            />
+          </Slide>
         </Deck>
       </Spectacle>
     );
