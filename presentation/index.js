@@ -145,8 +145,9 @@ export default class Presentation extends React.Component {
             <Heading>E agora?</Heading>
             <List>
               <Appear><ListItem><Link href="https://flowtype.org">flowtype.org</Link></ListItem></Appear>
-              <Appear><ListItem><Link href="http://makeitopen.com/">F8 app</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://medium.com/@thejameskyle/using-flow-with-babel-c04fdca8d14d#.lc6lrvmff">Setting up Flow when you’ve already got Babel in place</Link></ListItem></Appear>
               <Appear><ListItem><Link href="https://medium.com/@thejameskyle/flow-mapping-an-object-373d64c44592#.fbdcfqof8">Mapping an object</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="http://makeitopen.com/">F8 app</Link></ListItem></Appear>
               <Appear><ListItem><Link href="http://sitr.us/2015/05/31/advanced-features-in-flow.html">Advanced features in flow</Link></ListItem></Appear>
             </List>
           </Slide>
