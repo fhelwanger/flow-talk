@@ -126,10 +126,11 @@ export default class Presentation extends React.Component {
             <Heading>Por que usar?</Heading>
             <List>
               <Appear><ListItem>JavaScript é uma linguagem dinâmica</ListItem></Appear>
-              <Appear><ListItem>Capturar erros mais cedo</ListItem></Appear>
+              <Appear><ListItem>Ajuda a capturar erros mais cedo</ListItem></Appear>
               <Appear><ListItem>Ajuda na leitura do código</ListItem></Appear>
               <Appear><ListItem>Refatoração com mais segurança</ListItem></Appear>
               <Appear><ListItem>Suporte para IDE</ListItem></Appear>
+              <Appear><ListItem>Verifica módulos em paralelo</ListItem></Appear>
             </List>
           </Slide>
           <Slide>
@@ -149,7 +150,21 @@ export default class Presentation extends React.Component {
               <Appear><ListItem><Link href="https://medium.com/@thejameskyle/flow-mapping-an-object-373d64c44592#.fbdcfqof8">Mapping an object</Link></ListItem></Appear>
               <Appear><ListItem><Link href="http://makeitopen.com/">F8 app</Link></ListItem></Appear>
               <Appear><ListItem><Link href="http://sitr.us/2015/05/31/advanced-features-in-flow.html">Advanced features in flow</Link></ListItem></Appear>
+              <Appear><ListItem><Link href="https://www.youtube.com/watch?v=VEaDsKyDxkY">Flow Deep Dive</Link></ListItem></Appear>
             </List>
+          </Slide>
+          <Slide bgColor="#363d42">
+            <Heading>
+              <Image src={images.logo} height={300} />
+            </Heading>
+            <Text caps textColor="white">
+              <S type="strikethrough">Um verificador de tipos para JavaScript</S>
+            </Text>
+            <Appear>
+              <Text caps textColor="white">
+                Plataforma para inteligência de código
+              </Text>
+            </Appear>
           </Slide>
         </Deck>
       </Spectacle>
