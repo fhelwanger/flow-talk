@@ -1,12 +1,12 @@
-// @flow
+function identity<T>(p: T): T {
+	return p;
+}
 
 function somar(lista: Array<number>): number {
   var soma: number = 0;
-
   for (var i = 0; i < lista.length; i++) {
     soma += lista[i];
   }
-
   return soma;
 }
 
