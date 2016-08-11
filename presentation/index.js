@@ -106,10 +106,18 @@ export default class Presentation extends React.Component {
               textSize="0.8em"
             />
           </Slide>
-          <Slide notes="Comentar que vale pra qualquer classe e que pode usar um tipo definido com type = ...">
+          <Slide>
             <Heading margin="0px 0px 40px 0px">Classes</Heading>
             <CodePane
-              source={require("raw!../assets/examples/classes.example")}
+              source={require("raw!../assets/examples/classes.1.example")}
+              lang="js"
+              textSize="0.8em"
+            />
+          </Slide>
+          <Slide notes="pode usar um tipo type Props = {...}">
+            <Heading margin="0px 0px 40px 0px">Classes</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/classes.2.example")}
               lang="js"
               textSize="0.8em"
             />
