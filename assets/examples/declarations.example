@@ -1,0 +1,4 @@
+declare module "cookie-lib" {
+  declare function setCookie(name: string, value: string): void;
+  declare function getCookie(name: string): string;
+}

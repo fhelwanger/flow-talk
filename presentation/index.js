@@ -66,7 +66,7 @@ export default class Presentation extends React.Component {
               textSize="1em"
             />
           </Slide>
-          <Slide>
+          <Slide notes="flow nunca infere 'any'">
             <Heading margin="0px 0px 40px 0px">Inferência</Heading>
             <CodePane
               source={require("raw!../assets/examples/inference.example")}
@@ -114,6 +114,14 @@ export default class Presentation extends React.Component {
               textSize="0.8em"
             />
           </Slide>
+          <Slide notes="build-in types; flow-typed">
+            <Heading margin="0px 0px 40px 0px">Declarations</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/declarations.example")}
+              lang="js"
+              textSize="0.8em"
+            />
+          </Slide>
           <Slide notes="Comentar dinâmica vs tipada">
             <Heading>Por que usar?</Heading>
             <List>
@@ -127,6 +135,7 @@ export default class Presentation extends React.Component {
           <Slide>
             <Heading>Ferramentas</Heading>
             <List>
+              <Appear><ListItem><Link href="https://github.com/flowtype/flow-typed">flow-typed</Link></ListItem></Appear>
               <Appear><ListItem><Link href="http://babeljs.io/docs/plugins/transform-flow-strip-types/">babel-transform-flow-strip-types</Link></ListItem></Appear>
               <Appear><ListItem><Link href="https://github.com/gajus/eslint-plugin-flowtype">eslint-plugin-flowtype</Link></ListItem></Appear>
               <Appear><ListItem><Link href="https://github.com/rtorr/vscode-flow">vscode-flow</Link></ListItem></Appear>
