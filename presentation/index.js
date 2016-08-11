@@ -48,7 +48,7 @@ export default class Presentation extends React.Component {
               Um verificador de tipos para JavaScript
             </Text>
           </Slide>
-          <Slide>
+          <Slide notes="facebook tem mais de 50% de cobertura; flow coverage">
             <Heading>O que é?</Heading>
             <List>
               <Appear><ListItem><S type="bold">Verificador</S> de tipos para JavaScript</ListItem></Appear>
