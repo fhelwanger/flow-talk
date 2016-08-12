@@ -1,0 +1,4 @@
+flow check
+flow start
+flow stop
+flow coverage arquivo.js

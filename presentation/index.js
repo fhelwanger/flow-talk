@@ -66,6 +66,20 @@ export default class Presentation extends React.Component {
               textSize="1em"
             />
           </Slide>
+          <Slide>
+            <Heading margin="0px 0px 40px 0px">Instalação</Heading>
+            <CodePane
+              source={require("raw!../assets/examples/install.1.example")}
+              lang="bash"
+              textSize="1em"
+            />
+            <Text margin="30px 0px">Escrever código...</Text>
+            <CodePane
+              source={require("raw!../assets/examples/install.2.example")}
+              lang="bash"
+              textSize="1em"
+            />
+          </Slide>
           <Slide notes="flow nunca infere 'any'">
             <Heading margin="0px 0px 40px 0px">Inferência</Heading>
             <CodePane
